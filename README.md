@@ -4,7 +4,7 @@
 
 ## 라이브
 
-GitHub Pages: `https://<username>.github.io/span-contests/`
+https://59smf7nv2z-ops.github.io/span-contests/
 
 ## 기능
 
@@ -33,4 +33,6 @@ npm run preview
 ## 스택
 
 - Vite + React + TypeScript
-- GitHub Pages (`main` 푸시 시 Actions로 배포)
+- GitHub Pages (`npm run deploy` → `gh-pages` 브랜치)
+
+저장소: https://github.com/59smf7nv2z-ops/span-contests
