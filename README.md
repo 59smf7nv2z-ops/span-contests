@@ -2,6 +2,10 @@
 
 건축공학도를 위한 공모전·경진대회 정보를 모아 보여주는 웹 서비스입니다.
 
+## 라이브
+
+GitHub Pages: `https://<username>.github.io/span-contests/`
+
 ## 기능
 
 - 분야·상태·키워드 필터와 마감일 정렬
@@ -29,4 +33,4 @@ npm run preview
 ## 스택
 
 - Vite + React + TypeScript
-- CSS (브랜드·히어로·목록 UI)
+- GitHub Pages (`main` 푸시 시 Actions로 배포)
