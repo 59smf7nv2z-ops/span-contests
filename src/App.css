@@ -348,7 +348,7 @@
 
 .contest-trigger {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   gap: 1rem 1.5rem;
   width: 100%;
   padding: 1.35rem 0.25rem;
@@ -357,6 +357,10 @@
   text-align: left;
   cursor: pointer;
   transition: background 0.15s;
+}
+
+.contest-trigger > :first-child {
+  min-width: 0;
 }
 
 .contest-trigger:hover,
@@ -428,6 +432,7 @@
   align-items: flex-end;
   justify-content: center;
   gap: 0.35rem;
+  flex-shrink: 0;
   text-align: right;
   white-space: nowrap;
 }
